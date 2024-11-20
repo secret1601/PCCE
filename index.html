@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1., user-scalable=no">
+    <meta name="description" content="This is a detailed description of the Dailynco Coding Test.">
+    <meta name="keywords" content="coding, test, Dailynco, programming, HTML">
+    <meta name="author" content="Dailynco Publising Part">
+    <meta name="robots" content="index, follow">
+    <title>🍣🍺 Publising Part - Coding Test 🍗🍻</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+</head>
+<body>
+    <!-- css class BEM 명명법 -->
+
+    <div class="wrap">
+        <header id="header" class="header">
+            <div class="header__inner container">
+                <h1 class="logo">
+                    <img src="https://dailynco.com/cdn/shop/files/Group_2.svg?v=1685511535&width=240" alt="Dailynco logo">
+                    <span class="blind">Dailynco Publishing Part</span>
+                </h1>
+                
+                <h2 class="title">불가능하다고요?😯 그냥 일단 해보는 거죠🚀</h2>  
+            </div>
+        </header>
+
+        <main id="main" class="main">
+            <div class="main__inner container">
+                <section class="question">
+
+                    <!-- Q. 각 버튼 별 Toggle 구현  -->
+                    <div class="question__toggle">
+                        <div class="question__info">
+                            <h3 class="question__info-title">Q1. 각 <b>버튼 (a 태그)</b> 클릭 시 Toggle 기능을 구현해 주세요:)🖱️🖲️</h3>
+                            <p class="question__info-des">
+                                - 각 버튼 클릭 시, active 클래스가 toggle 되도록 작성해 주세요!<br>
+                                - 현재 이벤트의 기본 동작 중단<br>
+                                - 이벤트가 상위 DOM으로 전파되지 않도록 중단
+                                - 토글 활성화 상태의 CSS는 이미 작성이 되어있어요👨‍🎓
+                            </p>
+                        </div>
+
+                        <div class="question__box grid">
+                            <div class="toggle__item">
+                                <a href="#Global">Global</a>
+                            </div>
+                            <div class="toggle__item">
+                                <a href="#Shopify">Shopify</a>
+                            </div>
+                            <div class="toggle__item">
+                                <a href="#andar">andar</a>
+                            </div>
+                            <div class="toggle__item">
+                                <a href="#Dailynco">Dailynco</a>
+                            </div>
+                        </div>
+
+                        <div class="question__example">
+                            <h4>👑 완성된 룩의 gif입니다:) 👑</h4>
+                            <img src="https://cdn.shopify.com/s/files/1/0738/7584/9516/files/test1.gif?v=1731658328" alt="x example">
+                        </div>
+                    </div>
+                    
+                    <!-- Q. tap 메뉴 구현  -->
+                    <div class="question__tab">
+                        <div class="question__info">
+                            <h3 class="question__info-title">Q2. <b>탭 메뉴</b> 기능을 구현해 주세요:)🎮🎰</h3>
+                            <p class="question__info-des">
+                                - 각 버튼 클릭 시, active 클래스를 삽입하여 탭 메뉴를 활성화 시켜주세요<br>
+                                - 탭 메뉴의 타이틀과 컨텐츠에 각각 active 클래스 삽입 시, 효과가 나타나도록 css 작성이 되어있어요👨‍🎓<br><br>
+                                🎁 선택사항) 웹 접근성을 고려한 동작으로 작성해 주시면 더 좋아요! 🎁
+                            </p>
+                        </div>
+
+                        <div class="tab__box">
+                            <ul class="title__list grid" role="tablist">
+                                <li class="title__item active" role="tab" aria-selected="true"><button>Tab1</button></li>
+                                <li class="title__item" role="tab" tabindex="-1"><button>Tab2</button></li>
+                                <li class="title__item" role="tab" tabindex="-1"><button>Tab3</button></li>
+                            </ul>
+                            <ul class="content__list">
+                                <li class="content__item active" role="tabpanel">화이팅:)</li>
+                                <li class="content__item" role="tabpanel" hidden>힘내세요✨</li>
+                                <li class="content__item" role="tabpanel" hidden>수고하셨어요😃</li>
+                            </ul>
+                        </div>
+
+                        <div class="question__example">
+                            <h4>👑 완성된 룩의 gif입니다:) 👑</h4>
+                            <img src="https://cdn.shopify.com/s/files/1/0738/7584/9516/files/test1_0e8e9b32-3d24-4146-81ee-8ba3cb597fcf.gif?v=1732011033" alt="tab example">
+                        </div>
+                    </div>
+
+                    <div class="question__slide">
+                        <div class="question__info">
+                            <h3 class="question__info-title">Q3. <b>슬라이드</b> 기능을 구현해 주세요:)📗📘📕</h3>
+                            <p class="question__info-des">
+                                - Swiper.js 라이브러리 or Vanilla JS 둘 중 하나를 사용해 주세요 ( Swiper.js 라이브러리 관련 하기 이미지 참조 )<br>
+                                <img src="https://cdn.shopify.com/s/files/1/0738/7584/9516/files/Snipaste_2024-11-20_16-38-19.png?v=1732088312" alt="swiper example image">
+                                <br>
+                                - 기능 구현에 초점을 두시고, style은 고려하지 않으셔도 돼요!<br>
+                                - swiper 라이브러리는 CDN으로 이미 삽입되어 있어요! <br>
+                                - .slide__content 클래스를 가진 태그를 참조하여 슬라이드로 구현해주세요.<br>
+                                - HTML 구조 변경하여 작성해 주세요!<br>
+                                - 이미지는 총 3개입니다:)<br><br>
+                                <b>[ 슬라이드 요구사항 ]</b><br>
+                                1. 무한 루프<br>
+                                2. 2초 마다 자동 재생
+                            </p>
+                        </div>
+                        <!-- Vanilla JS로 활용한 Slide 구현 -->
+                        <div class="slide__inner vanilla">
+                            <h4>#Slide </h4>
+                            <div class="slide__content">
+                                <img src="https://cdn.shopify.com/s/files/1/0767/3469/3668/files/SG_______PC.jpg?v=1730699623&width=2048" alt="test image 1">
+                            </div>
+                            <div class="slide__content">
+                                <img src="https://cdn.shopify.com/s/files/1/0767/3469/3668/files/PC_02_refer.jpg?v=1724377088&width=2048" alt="test image 2">
+                            </div>
+                            <div class="slide__content">
+                                <img src="https://cdn.shopify.com/s/files/1/0767/3469/3668/files/PC_03_dcash.jpg?v=1724377088&width=2048" alt="test image 3">
+                            </div>
+                        </div>
+
+                        <div class="question__example">
+                            <h4>👑 완성된 룩의 gif입니다:) 👑</h4>
+                            <img src="https://cdn.shopify.com/s/files/1/0738/7584/9516/files/test1123.gif?v=1732090881" alt="slide example">
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </main>
+
+        <footer id="footer" class="footer"></footer>
+
+    </div>
+
+    <script src="js/DoNotModify.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
